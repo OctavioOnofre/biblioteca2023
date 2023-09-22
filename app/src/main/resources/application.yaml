@@ -1,0 +1,12 @@
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/application
+        username: root
+        password: rootpass
+    jpa:
+        hibernate:
+            ddl-auto: update
+    mvc:
+        view:
+            prefix: /WEB-INF/
+            suffix: .jsp
